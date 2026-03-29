@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGNITE FITNESS | Build Your Legacy</title>
+    <meta name="description" content="A comprehensive dark-themed gym landing page featuring modern responsive design, stunning animations, and high-energy colors.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Boxicons for standard icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <a href="#" class="logo">IGNITE<span>FIT</span></a>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#problem">Why Us?</a>
+            <a href="#features">Facilities</a>
+            <a href="#awards">Hall of Fame</a>
+            <a href="#pricing">Memberships</a>
+        </nav>
+        <a href="#pricing" class="btn btn-nav">Join Now</a>
+        <div class="menu-icon" id="menu-icon"><i class='bx bx-menu'></i></div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="close-menu" id="close-menu"><i class='bx bx-x'></i></div>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#problem" class="mobile-link">Why Us?</a>
+        <a href="#features" class="mobile-link">Facilities</a>
+        <a href="#awards" class="mobile-link">Hall of Fame</a>
+        <a href="#pricing" class="mobile-link">Memberships</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Overlay for better text readability -->
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal-up">
+            <h1 class="glitch-text" data-text="BUILD YOUR LEGACY">BUILD YOUR LEGACY</h1>
+            <p>Unleash your true potential with state-of-the-art equipment and elite trainers pushing you beyond your limits.</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary">Start Your Trial</a>
+                <a href="#features" class="btn btn-secondary">Explore Gym</a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat"><span class="counter" data-target="24">0</span><span class="plus">/7</span><p>Access</p></div>
+                <div class="stat"><span class="counter" data-target="50">0</span><span class="plus">+</span><p>Premium Machines</p></div>
+                <div class="stat"><span class="counter" data-target="1500">0</span><span class="plus">+</span><p>Active Members</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Solver Section -->
+    <section class="problem-solver" id="problem">
+        <div class="container flex-row">
+            <div class="content reveal-left">
+                <div class="section-badge">The Real Problem</div>
+                <h2>Stop Guessing.<br><span>Start Growing.</span></h2>
+                <p>The highest failure rate in fitness comes from inconsistency and a lack of tailored guidance. Working out without a proper plan leads to frustration and plateauing.</p>
+                <div class="solutions">
+                    <div class="solution-item">
+                        <i class='bx bx-check-shield'></i>
+                        <div>
+                            <h4>Smarter Programs</h4>
+                            <p>We analyze your body metrics to craft the ultimate bespoke plan.</p>
+                        </div>
+                    </div>
+                    <div class="solution-item">
+                        <i class='bx bx-run'></i>
+                        <div>
+                            <h4>Unbreakable Consistency</h4>
+                            <p>Our accountability systems ensure you never miss a milestone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="visual reveal-right">
+                <div class="video-placeholder">
+                    <img src="assets/gym_machine_1774770063971.png" alt="Futuristic Gym Machine" class="floating">
+                    <div class="play-btn"><i class='bx bx-play'></i></div>
+                </div>
+                <div class="accent-blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Facilities Section -->
+    <section class="features" id="features">
+        <div class="container text-center reveal-up">
+            <div class="section-badge">Our Arsenal</div>
+            <h2>Premium Gym <span>Facilities</span></h2>
+            <p class="subtitle">Equipped with everything required to forge an elite physique.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card reveal-up" style="transition-delay: 100ms;">
+                    <i class='bx bx-dumbbell'></i>
+                    <h3>Free Weights</h3>
+                    <p>Iron plates, olympic bars, and dumbbells ranging up to 150 lbs.</p>
+                </div>
+                <div class="feature-card reveal-up" style="transition-delay: 200ms;">
+                    <i class='bx bx-cog'></i>
+                    <h3>Bio-Mech Machines</h3>
+                    <p>Next-gen isolateral machines precision engineered for perfect biomechanics.</p>
+                </div>
+                <div class="feature-card reveal-up" style="transition-delay: 300ms;">
+                    <i class='bx bx-stopwatch'></i>
+                    <h3>High-Intensity Cardio</h3>
+                    <p>Curved treadmills, assault bikes, and stairmasters built for metabolic torture.</p>
+                </div>
+                <div class="feature-card reveal-up" style="transition-delay: 400ms;">
+                    <i class='bx bx-spa'></i>
+                    <h3>Recovery Zone</h3>
+                    <p>Ice baths, infrared saunas, and percussion therapy to heal faster.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards / Hall of Fame -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <div class="awards-flex">
+                <div class="award-text reveal-left">
+                    <div class="section-badge light">Hall of Fame</div>
+                    <h2>Forging <span>Champions</span></h2>
+                    <p>We don't just host members; we build athletes. Our facility is the home away from home for decorated bodybuilders and top-tier fitness competitors.</p>
+                    <ul class="award-list">
+                        <li><i class='bx bxs-trophy'></i> 2024 National Physique Federation - 1st Place</li>
+                        <li><i class='bx bxs-medal'></i> Regional Powerlifting Cup - Gold</li>
+                        <li><i class='bx bx-star'></i> Voted "#1 Hardcore Gym" by FitMag</li>
+                    </ul>
+                </div>
+                <div class="award-image reveal-right">
+                    <img src="assets/fitness_award_1774770046041.png" alt="Fitness Trophy" class="trophy-img tilt-effect">
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memberships Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container text-center reveal-up">
+            <div class="section-badge">Commit to Greatness</div>
+            <h2>Join The <span>Movement</span></h2>
+            <p class="subtitle">Transparent pricing. No hidden fees. Cancel anytime.</p>
+
+            <div class="pricing-carousel">
+                <!-- Basic Plan -->
+                <div class="pricing-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="card-head">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="value">29</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li><i class='bx bx-check'></i> 24/7 Gym Access</li>
+                        <li><i class='bx bx-check'></i> Cardio & Free Weights</li>
+                        <li><i class='bx bx-x' style="color: #666;"></i> No Group Classes</li>
+                        <li><i class='bx bx-x' style="color: #666;"></i> No Recovery Zone</li>
+                    </ul>
+                    <button class="btn btn-outline select-plan" data-plan="Starter">Select Plan</button>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured reveal-up" style="transition-delay: 200ms;">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="card-head">
+                        <h3>Elite</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="value">59</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li><i class='bx bx-check'></i> 24/7 Gym Access</li>
+                        <li><i class='bx bx-check'></i> Full Machine Arsenal</li>
+                        <li><i class='bx bx-check'></i> All Group Classes</li>
+                        <li><i class='bx bx-check'></i> 2 Guest Passes / Mo</li>
+                    </ul>
+                    <button class="btn btn-primary select-plan" data-plan="Elite">Select Plan</button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="pricing-card reveal-up" style="transition-delay: 300ms;">
+                    <div class="card-head">
+                        <h3>Legacy</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="value">99</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li><i class='bx bx-check'></i> Everything in Elite</li>
+                        <li><i class='bx bx-check'></i> Full Recovery Zone Access</li>
+                        <li><i class='bx bx-check'></i> Monthly PT Assessment</li>
+                        <li><i class='bx bx-check'></i> Nutrition App Pro Access</li>
+                    </ul>
+                    <button class="btn btn-outline select-plan" data-plan="Legacy">Select Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner">
+        <div class="container text-center reveal-up">
+            <h2>Not sure where to start?</h2>
+            <p>Book a free 1-on-1 consultation and tour with our head coach today.</p>
+            <button class="btn btn-primary" id="consult-btn">Book Free Consultation</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="#" class="logo">IGNITE<span>FIT</span></a>
+                    <p>We forge iron bodies and resilient minds. More than a gym, this is a proving ground.</p>
+                    <div class="socials">
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-tiktok'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#problem">Why Us?</a></li>
+                        <li><a href="#features">Facilities</a></li>
+                        <li><a href="#awards">Hall of Fame</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Member Guidelines</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class='bx bx-map'></i> 100 Iron Street, Cityville NV</li>
+                        <li><i class='bx bx-envelope'></i> join@ignitefit.com</li>
+                        <li><i class='bx bx-phone'></i> (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="year"></span> Ignite Fitness. Built with HTML, CSS & JS.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal (Hidden by Default) -->
+    <div class="modal" id="booking-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Complete Your Booking</h2>
+            <p>You selected the <span id="plan-name" style="color: var(--primary);"></span> Plan.</p>
+            <form id="booking-form" class="booking-form">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="john@example.com">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Confirm Enrollment</button>
+            </form>
+            <div id="booking-success" class="hidden text-center" style="margin-top: 2rem;">
+                <i class='bx bx-check-circle' style="font-size: 4rem; color: var(--primary);"></i>
+                <h3 style="margin-top: 0.5rem;">Welcome to the Family!</h3>
+                <p>Check your email for access instructions.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
