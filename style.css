@@ -924,19 +924,29 @@ ul {
 
     .hero {
         height: auto;
-        min-height: 100vh;
-        padding-top: 140px;
+        min-height: auto;
+        padding-top: 120px;
         padding-bottom: 60px;
+        align-items: flex-start;
+    }
+
+    .hero-content p {
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+        gap: 1rem;
     }
 
     .hero-stats {
         flex-direction: column;
-        gap: 2rem;
-    }
-    
-    .hero-buttons {
-        flex-direction: column;
-        padding: 0 2rem;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 }
 
